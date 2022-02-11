@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<BasicForm>
+  <div>
+    <h1>
+      Signup
+    </h1>
+    <Formik
+      initialValues={
+        Object {
+          "email": "",
+          "fullName": "",
+        }
+      }
+      onSubmit={[Function]}
+      validationSchema={
+        ObjectSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_excludedEdges": Array [],
+          "_nodes": Array [
+            "email",
+            "fullName",
+          ],
+          "_sortErrors": [Function],
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {},
+          "fields": Object {
+            "email": StringSchema {
+              "_blacklist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_blacklistError": undefined,
+              "_mutate": undefined,
+              "_typeError": [Function],
+              "_whitelist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_whitelistError": undefined,
+              "conditions": Array [],
+              "deps": Array [],
+              "exclusiveTests": Object {
+                "email": false,
+                "required": true,
+              },
+              "spec": Object {
+                "abortEarly": true,
+                "nullable": false,
+                "presence": "required",
+                "recursive": true,
+                "strict": false,
+                "strip": false,
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+              "type": "string",
+            },
+            "fullName": StringSchema {
+              "_blacklist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_blacklistError": undefined,
+              "_mutate": undefined,
+              "_typeError": [Function],
+              "_whitelist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_whitelistError": undefined,
+              "conditions": Array [],
+              "deps": Array [],
+              "exclusiveTests": Object {
+                "max": true,
+                "min": true,
+                "required": true,
+              },
+              "spec": Object {
+                "abortEarly": true,
+                "nullable": false,
+                "presence": "required",
+                "recursive": true,
+                "strict": false,
+                "strip": false,
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+              "type": "string",
+            },
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "object",
+        }
+      }
+    >
+      <Form>
+        <form
+          action="#"
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <Field
+            name="fullName"
+          >
+            <input
+              name="fullName"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value=""
+            />
+          </Field>
+          <Field
+            name="email"
+            type="email"
+          >
+            <input
+              name="email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="email"
+              value=""
+            />
+          </Field>
+          <button
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </Form>
+    </Formik>
+  </div>
+</BasicForm>
+`;

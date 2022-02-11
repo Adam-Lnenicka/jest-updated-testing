@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+h1 {
+  padding-top: 4rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.dark-theme {
+  background-color: rgb(35, 37, 46);
+  color: rgb(243, 243, 243);
+}
+
+.light-theme {
+  color: rgb(35, 37, 46);
+  background-color: rgb(243, 243, 243);
+}
+.light-theme button {
+  color: rgb(243, 243, 243);
+}
+
+button {
+  background-color: rgb(50, 155, 132);
+  color: rgb(35, 37, 46);
+  border-radius: 2rem;
+  font-weight: 700;
+  margin: 2rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  padding: 3rem;
+  box-shadow: 0 0 50px rgb(19, 19, 19);
+  margin: 2rem;
+  width: 400px;
+
+  border-radius: 1rem;
+}
+
+.card img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<ForwardRef>
+  <div
+    disabled={false}
+    name="plan"
+  >
+    <div
+      className="flex"
+    >
+      <div
+        className="card"
+        key="1"
+        value={1}
+      >
+        <h2>
+          User: 
+          Test Author 1
+        </h2>
+        <p>
+          Email: 
+          Test email
+        </p>
+        <p>
+          Username: 
+          Test username
+        </p>
+      </div>
+      <div
+        className="card"
+        key="2"
+        value={2}
+      >
+        <h2>
+          User: 
+          Test Author 2
+        </h2>
+        <p>
+          Email: 
+          Test email
+        </p>
+        <p>
+          Username: 
+          Test username
+        </p>
+      </div>
+    </div>
+  </div>
+</ForwardRef>
+`;
